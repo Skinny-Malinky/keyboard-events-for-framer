@@ -152,5 +152,5 @@ If you'd like to know more or you have any particular feature requests, get in t
 
 ## Other useful projects for TV
 
-[FocusEngine](https://github.com/bpxl-labs/FocusEngine)
-[RemoteLayer](https://github.com/bpxl-labs/RemoteLayer)
+* [FocusEngine](https://github.com/bpxl-labs/FocusEngine)
+* [RemoteLayer](https://github.com/bpxl-labs/RemoteLayer)
