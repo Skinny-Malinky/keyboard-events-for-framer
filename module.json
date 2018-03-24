@@ -1,0 +1,11 @@
+{
+    "name": "Keyboard-Input-for-Framer",
+    "description": "Trigger functions from keyboard input.",
+    "author": "@struanfraser",
+
+    "require": "keyboard = require 'Keyboard'",
+    "install": "Keyboard.coffee",
+    "example": "example.coffee",
+
+    "thumb": "images/keyboard.gif"
+}

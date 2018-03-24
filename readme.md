@@ -1,5 +1,10 @@
 # Keyboard Input for Framer
 
+<a href='https://open.framermodules.com/Keyboard-Input-for-Framer'>
+    <img alt='Install with Framer Modules'
+    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
+</a>
+
 If you have any feedback, give me a shout on twitter – [@struanfraser](http://www.twitter.com/struanfraser).
 
 This small module makes it a little nicer to use keyboard functionality in Framer. I created this as I prototype for **[YouView TV](https://www.youview.com/)** using a **[FLIRC](https://www.flirc.tv/)** for infrared input, which translates directly to keyboard input.
@@ -34,6 +39,7 @@ keyboard.onKey( keyboard.r, record() )
 ```
 
 ## Stopping a key from calling a function
+
 Perhaps you no longer want the key you've previously mapped to call the same function. You can remove the key listener with the following function –
 
 ```
@@ -41,7 +47,8 @@ keyboard.offKey( keyboard.r )
 ```
 
 ## Throttling
-As key input is constant, it will often call functions ***far*** too quickly. One solution to this is using [throttling](https://framer.com/docs/#utils.throttle). Throttling ensures that a function is only called once every x seconds. 
+
+As key input is constant, it will often call functions **_far_** too quickly. One solution to this is using [throttling](https://framer.com/docs/#utils.throttle). Throttling ensures that a function is only called once every x seconds.
 
 If we want to throttle our key input, we just add it as another paramater in the function in **seconds**. As follows –
 
@@ -55,64 +62,62 @@ Now if we hold the **R button**, it will only call the `record()` function every
 
 You can use any of the following keys after you've assigned a prefix. In our example, we used `keyboard.` as a prefix. If you want to use **backspace** it would be `keyboard.backspace`.
 
-
-
 ```
-backspace 
-tab 
-enter 
-shift 
-ctrl 
-alt 
+backspace
+tab
+enter
+shift
+ctrl
+alt
 
-caps 
-escape 
-pageUp 
-pageDown 
+caps
+escape
+pageUp
+pageDown
 
-left 
+left
 up
-right 
-down 
-delete 
+right
+down
+delete
 
-zero 
-one 
-two 
-three 
-four 
-five 
-six 
-seven 
-eight 
-nine 
+zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
 
-a 
-b 
-c 
-d 
-e 
-f 
-g 
-h 
-i 
-j 
-k 
-l 
-m 
-n 
-o 
-p 
-q 
-r 
-s 
-t 
-u 
-v 
-w 
-x 
-y 
-z 
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
 
 numZero
 numOne
@@ -121,20 +126,20 @@ numThree
 numFour
 numFive
 numSix
-numSeven 
+numSeven
 numEight
 numNine
 
 fOne
-fTwo 
-fThree 
+fTwo
+fThree
 fFour
-fFive 
+fFive
 fSix
-fSeven 
+fSeven
 fEight
-fNine 
-fTen 
+fNine
+fTen
 
 semiColon
 equalSign
@@ -152,5 +157,5 @@ If you'd like to know more or you have any particular feature requests, get in t
 
 ## Other useful projects for TV
 
-* [FocusEngine](https://github.com/bpxl-labs/FocusEngine)
-* [RemoteLayer](https://github.com/bpxl-labs/RemoteLayer)
+*   [FocusEngine](https://github.com/bpxl-labs/FocusEngine)
+*   [RemoteLayer](https://github.com/bpxl-labs/RemoteLayer)
