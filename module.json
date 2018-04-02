@@ -7,5 +7,5 @@
     "install": "Keyboard.coffee",
     "example": "example.coffee",
 
-    "thumb": "images/keyboard.gif"
+    "thumb": "images/keyboard-mini.gif"
 }
