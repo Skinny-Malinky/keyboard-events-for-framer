@@ -1,7 +1,7 @@
 {
     "name": "Keyboard-Input-for-Framer",
     "description": "Trigger functions from keyboard input.",
-    "author": "@struanfraser",
+    "author": "Struan Fraser",
 
     "require": "keyboard = require 'Keyboard'",
     "install": "Keyboard.coffee",
