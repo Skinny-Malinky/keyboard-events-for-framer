@@ -53,10 +53,19 @@ As key input is constant, it will often call functions **_far_** too quickly. On
 If we want to throttle our key input, we just add it as another paramater in the function in **seconds**. As follows –
 
 ```
-keyboard.onKey( keyboard.r, record(), 0.3 )
+keyboard.onKey( keyboard.r, record, 0.3 )
 ```
 
 Now if we hold the **R button**, it will only call the `record()` function every **0.3 seconds**. If you're struggling with animations, it will often help to set your throttle to the length of your longest animation.
+
+## Passing a parameter to a function
+
+Because using brackets (i.e. `record()`) will cause a function to immediately execute we cannot pass parameters without employing a small trick. To pass a function with parameters in coffescript we need only do the following –
+```
+keyboard.onKey( keyboard.r, (-> record( parameterOne, parameterTwo )), 0.3 )
+```
+
+As the arrow is declaring a new function, it is returning the entire function rather than executing it. We could also write this as `(-> return record( parameterOne, parameterTwo ))` but, as CoffeeScript returns the last declared object by default, we can omit the `return`.
 
 ## Available Keys
 
