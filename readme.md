@@ -58,7 +58,7 @@ keyboard.onKey( keyboard.r, record, 0.3 )
 
 Now if we hold the **R button**, it will only call the `record()` function every **0.3 seconds**. If you're struggling with animations, it will often help to set your throttle to the length of your longest animation.
 
-## Passing a parameter to a function
+## Passing a parameter to a function
 
 Because using brackets (i.e. `record()`) will cause a function to immediately execute we cannot pass parameters without employing a small trick. To pass a function with parameters in coffescript we need only do the following –
 ```
