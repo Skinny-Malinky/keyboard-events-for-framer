@@ -35,7 +35,7 @@ record = () ->
 Then to use the **R key** to activate the function, we need only write –
 
 ```
-keyboard.onKey( keyboard.r, record() )
+keyboard.onKey( keyboard.r, record )
 ```
 
 ## Stopping a key from calling a function
